@@ -34,7 +34,7 @@ function testFactorial(a) {
         x = x * i;
     }
     return x;
-}
+} 
 console.log(testFactorial(7));
 ```
 ************
