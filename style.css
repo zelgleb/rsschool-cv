@@ -1,1 +1,141 @@
+:root {
+  --dark-black-color: #29286a;
+  --ligth-gray-color: #29286a;
+  --green-color: #7d7f7d;
+  }
+body {
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+}
+.allOnCenter {
+  margin: 20px auto;
+  width: 1024px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 40px -1px rgba(28, 4, 179, 0.447);
+}
 
+.two-sides {
+  display: flex;
+  }
+
+.left-side {
+  width: 42%;
+  color: var(--dark-black-color);
+  background-color: var(--green-color);
+  }
+.right-side {
+  width: 60%;
+  padding: 55px;
+  }
+header {
+  padding: 40px;
+  text-align: center;
+  background-color: #ffffff;
+  }
+header img {
+  margin-bottom: 10px;
+  border: 10px solid var(--green-color);
+  border-radius: 20%;
+  }
+header h1 {
+  margin-bottom: 15px;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.3;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  }
+header h2 {
+    margin-bottom: 25px;
+    letter-spacing: 3px;
+  }
+main {
+  padding: 0 55px;
+  }
+main h3 {
+  width: 200px;
+  margin: 60px auto 30px;
+  padding: 5px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #ffffff;
+  background-color: var(--dark-black-color);
+  border-radius: 60%;
+  }
+main li {
+  margin-bottom: 10px;
+  }
+.contacts li img {
+  vertical-align: middle;
+  margin-right: 10px;
+  }
+.contacts li p {
+  display: inline;
+  vertical-align: middle;
+  }
+.contacts a {
+  text-decoration: none;
+  color: var(--dark-black-color);
+}
+.right-side .near {
+  /* display: flex; */
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.right-side .about-myself .near {
+  margin-top: 0;
+}
+.about-myself p {
+  margin-bottom: 10px;
+  margin-left: 45px;
+}
+.right-side h3 {
+  flex: 1;
+  vertical-align: middle;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--ligth-gray-color);
+  border-bottom: 2px solid var(--ligth-gray-color);
+  border-top: 2px solid var(--ligth-gray-color);
+}
+.right-side img {
+  vertical-align: middle;
+  margin-right: 15px;
+}
+.right-side p {
+  color: var(--ligth-gray-color);
+}
+.courses ul {
+  list-style-type: disc;
+  margin-left: 45px;
+  margin-bottom: 30px;
+}
+
+.courses li {
+  margin-bottom: 10px;
+  color: var(--ligth-gray-color);
+}
+.code-example p {
+  margin-left: 45px;
+}
+pre {
+  margin-top: 20px;
+  padding-left: 30px;
+  font-family: monospace;
+  font-size: 0.9rem;
+  background-color: #f5f5f5;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-size: 0.8rem;
+  color: #ffffff;
+  background-color: var(--dark-black-color);
+}
