@@ -1,0 +1,25 @@
+.houseplant1 {
+    background-image: url("img/imgAbout/houseplant 1.svg");
+    width: 464px;
+    height: 479px;
+    display: inline-block;
+
+}
+.leafs {
+    background-image: url("img/img welcome/leafs.svg");
+    width: 448.8px;
+    height: 407.36px;
+    display: inline-block;
+}
+.leafs_prices{
+    background-image: url("img/img prices/leafs.svg");
+    width: 152px;
+    height: 174.99px;
+    display: inline-block;
+}
+.header_logo {
+    background-image: url("img/img header/logo_vector.svg");
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
