@@ -23,3 +23,84 @@
     height: 20px;
     display: inline-block;
 }
+.accordion_btn{
+    background-image: url("img/accordion_btn.svg");
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+}
+.img1 {
+    background-image: url("img/img services/1.jpg");
+    width: 329px;
+    height: 350px;
+    left: 1002px;
+    top: 224px;
+    border-radius: 20px 20px 0px 0px;
+    display: inline-block;
+}
+.img2 {
+    background-image: url("img/img services/2.jpg");
+    width: 329px;
+    height: 350px;
+    display: inline-block;
+}
+.img3{
+    background-image: url("img/img services/3.jpg");
+    width: 329px;
+    height: 350px;
+    display: inline-block;
+}
+.img4 {
+    background-image: url("img/img services/4.jpg");
+    width: 329px;
+    height: 350px;
+    display: inline-block;
+}
+.img5 {
+    background-image: url("img/img services/5.jpg");
+    width: 329px;
+    height: 350px;
+    display: inline-block;
+}
+.img6{
+    background-image: url("img/img services/6.jpg");
+    width: 329px;
+    height: 350px;
+    display: inline-block;
+}
+.contact_woman1{
+    background-image: url("img/img contactus/contact_woman1.jpg");
+    width: 400px;
+    height: 496.99px;
+    display: inline-block;
+}
+.instagram{
+    background-image: url("img/img footer/inst 1.svg");
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+}
+.facebook{
+    background-image: url("img/img footer/fb 1.svg");
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+}
+.twitter{
+    background-image: url("img/img footer/tw 1.svg");
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+}
+.pinterest{
+    background-image: url("img/img footer/pinterest 1.svg");
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+}
+/*.my-github{*/
+/*    background-image: url("img/img footer/github.svg");*/
+/*    width: 85px;*/
+/*    height: 85px;*/
+/*    display: inline-block;*/
+/*}*/
