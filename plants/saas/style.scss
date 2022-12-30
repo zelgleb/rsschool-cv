@@ -1,3 +1,9 @@
-@import "../base/_base.scss";
-@import "../abstracts/_constants.scss";
-@import "../layouts/_wrapper.scss";
+@import "base/_base.scss";
+@import "abstracts/_constants.scss";
+
+//layouts
+@import "layouts/_wrapper.scss";
+@import "layouts/_header.scss";
+
+// Components
+@import "components/_contact-us.scss";
