@@ -2,6 +2,22 @@
   background: $color-background;
   padding: 42px 0 42px 0;
 }
-.header__wrapper{
+.header__wrapper {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+.nav{
+
+}
+
+//.header_nav{
+//  padding: 42px 112px 42px 112px;
+//}
+//.logo{
+//  margin-right: auto;
+//  margin-top: 11px;
+//}
+//.header_list{
+//
+//}
