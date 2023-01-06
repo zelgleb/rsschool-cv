@@ -3,7 +3,9 @@
 
 //layouts
 @import "layouts/_wrapper.scss";
-@import "layouts/_header.scss";
+@import "./layouts/_header.scss";
+@import "./layouts/_welcome.scss";
 
 // Components
 @import "components/_contact-us.scss";
+
