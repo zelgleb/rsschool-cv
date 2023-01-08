@@ -5,7 +5,16 @@
 @import "layouts/_wrapper.scss";
 @import "./layouts/_header.scss";
 @import "./layouts/_welcome.scss";
+@import "./layouts/about.scss";
+@import "./layouts/service.scss";
+@import "./layouts/prices.scss";
+@import "./layouts/contacts.scss";
+@import "./layouts/footer.scss";
+
 
 // Components
 @import "components/_contact-us.scss";
+@import "components/logo.scss";
+@import "components/nav.scss";
+@import "components/button.scss";
 

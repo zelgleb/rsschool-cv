@@ -1,71 +1,15 @@
-header{
-  background: $color-background;
-  padding: 42px 0 42px 0;
-  padding-bottom: 62px;
+.header{
+  background-color: $color-background;
+  height: 134px;
+  &__wrapper {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 42px;
+    }
+    &__logo {
+      margin-bottom: 10px;
+    }
 }
-.header__wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 0px;
-  padding-left: 0;
-  margin-left: 112px;
-  margin-right: 112px;
-  margin-top: 0;
-}
-.header_text{
-  text-align: left;
-}
-.navigation{
-  display: flex;
-}
-.navigation__list{
-  list-style: none;
-}
-.logotip{
-  margin-right: auto;
-  margin-top: 11px;
-  margin-left: -4px;
-}
-.lists{
-  text-decoration: none;
-  margin: 0 46px 0 0;
-  font-size: 1.6rem;
-  line-height: 5.0rem;
-  color: #010201;
-}
-.super{
-  color: #E06733;
-}
-.header_logo{
-  align-items: center;
-
-}
-.header_text{
-  text-decoration: none;
-  margin: 0 46px 0 0;
-  font-size: 1.6rem;
-  line-height: 5.0rem;
-}
-.logo_name{
-  margin-left: 0px;
-  margin-right: 0px;
-}
-.lists__contact{
-  text-decoration: none;
-  margin: 0 0px 0 0;
-  font-size: 1.6rem;
-  line-height: 5.0rem;
-  color: #010201;
-}
-
-//.header_nav{
-//  padding: 42px 112px 42px 112px;
-//}
-//.logo{
-//  margin-right: auto;
-//  margin-top: 11px;
-//}
-//.header_list{
-//
-//}

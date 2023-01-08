@@ -1,0 +1,24 @@
+.navigation {
+    height: 50px;
+    &__list {
+        display: flex;
+        padding-inline-start: 0px;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+    }
+    &__item {
+        list-style: none;
+        &:not(:last-child) {
+             margin-right: 46px;
+        }
+    }
+    &__item-link {
+        text-decoration: none;
+        color: $color-nav;
+        &--colored {
+            color: $color-base;
+        }
+    }
+
+}

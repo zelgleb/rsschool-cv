@@ -1,0 +1,21 @@
+.contacts{
+    background-color: $color-background;
+    height: 550px;
+    &__wrapper{
+        height: 497px;  
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        padding-top: 53px;
+        }   
+    &__h2{
+        width: 196px;
+        padding-top: 7px;
+        padding-left: 113px;
+        padding-right: 64px;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 52px;
+        color: $color-primary;
+    }
+}

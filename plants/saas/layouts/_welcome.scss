@@ -1,4 +1,37 @@
-.wrapper-welcome{
-  display: flex;
-
+.welcome{
+  background-color: $color-background;
+  height: 532px;
+  &__wrapper {
+    height: 407px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 62px;
+    padding-bottom: 62px;
+    }
+    &__section-content {
+      width: 549px;
+      height: 340px;
+      
+    }
+    &__section-h1 {
+      color: $color-inside;
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 52px;
+      span{
+        color: $color-primary;
+      }  
+    }
+    &__section-desc {
+      
+      color: $color-shadow;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 35px;
+      padding-top: 42px;
+      margin: 0 0 44px;
+    }
+    
 }

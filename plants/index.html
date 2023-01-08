@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/leafs" href="img/img welcome/leafs.png">
+    <link rel="icon" type="image/leafs" href="img/img welcome/leafs.png" width="16" height="16">
     <title>We grow plants and give you oxygen</title>
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
@@ -11,31 +11,33 @@
     <link rel="stylesheet" href="pictures.css">
 </head>
 <body>
-    <header >
+    <header class="header">
         <div class="wrapper header__wrapper">
-
-            <nav class="header__navigation">
-                <ul class="navigation">
-                    <li class="navigation__list logotip">
-                        <a href="#" class="header_logo"><img src="img/img header/logo_vector.png" alt="Plants">
-                            <a class="header_text">Plants</a>
-                        </a>
-
+            <a href="#" class="header__logo logo">
+                <div class="logo__img">
+                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.52667 20.9466L10.9212 3.66409C10.9212 3.66409 3.57596 7.00909 2.00199 10.9116C0.428017 14.8141 0.927102 18.4038 2.00201 20.9466" stroke="#499A18" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M1.99646 20.9925C1.99646 20.9925 27.7102 -8.60087 19.3157 4.2216C10.9212 17.0441 20.1707 6.63145 15.4973 14.0678C10.824 21.5041 1.99646 20.9925 1.99646 20.9925Z" stroke="#499A18" stroke-linejoin="round"/>
+                        </svg>
+                </div>
+                <p class="logo__text">Plants</p>
+            </a>
+            <nav class="header__navigation navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__item">
+                        <a class="navigation__item-link navigation__item-link--colored" href="./index.html">Home</a>
                     </li>
-                    <li class="navigation__list">
-                        <a class="lists super" href="./index.html">Home</a>
+                    <li class="navigation__item">
+                        <a class="navigation__item-link" href="./index.html">About us</a>
                     </li>
-                    <li class="navigation__list">
-                        <a class="lists" href="./index.html">About us</a>
+                    <li class="navigation__item">
+                        <a class="navigation__item-link" href="./index.html">Service</a>
                     </li>
-                    <li class="navigation__list">
-                        <a class="lists" href="./index.html">Service</a>
+                    <li class="navigation__item">
+                        <a class="navigation__item-link" href="./index.html">Price</a>
                     </li>
-                    <li class="navigation__list">
-                        <a class="lists" href="./index.html">Price</a>
-                    </li>
-                    <li class="navigation__list">
-                        <a class="lists__contact" href="./index.html">Contacts</a>
+                    <li class="navigation__item">
+                        <a class="navigation__item-link" href="./index.html">Contacts</a>
                     </li>
                 </ul>
             </nav>
@@ -43,154 +45,170 @@
     </header>
     <main>
         <section class="welcome">
-            <div class="wrapper we">
-                <span class="leafs"></span>
-                <div class="welcome section">
-                    <div class="welcome_content">
-                        <h1>We grow plants and give you oxygen</h1>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                        <div class="btn services">
-                            <button class="button button_bordered">LEARN MORE</button>
-                        </div>
+            <div class="wrapper welcome__wrapper">
+                <span class="welcome__img"></span>
+                <div class="welcome__section">
+                    <div class="welcome__section-content">
+                        <h1 class="welcome__section-h1">We grow <span>plants</span> and give you oxygen</h1>
+                        <p class="welcome__section-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        <a class="button button--bordered"><span>LEARN MORE</span></a>
                     </div>
                 </div>
             </div>
         </section>
         <section class="about">
-            <div class="wrapper">
-                <div class="about section">
-                    <h2>We are professional experienced gardeners</h2>
-                    <p class="about description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+            <div class="wrapper about__wrapper">
+                <div class="about__section-content">
+                    <h2 class="about__section-h2"><span>We are</span> professional experienced <span>gardeners</span></h2>
+                    <p class="about__section-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
                 </div>
-                <span class="houseplant1"></span>
+                <span class="about__img"></span>
             </div>
         </section>
         <section class="service">
-            <div class="wrapper">
-                <div class="services_content">
-                    <h2>Service and our projects</h2>
-                    <div class="btn services">
-                        <button class="button button_bordered">Gardens</button>
-                        <button class="button button_bordered">Lawn</button>
-                        <button class="button button_bordered">Planting</button>
-<!--                        button_colored будет модификатором для жёлтой кнопки-->
+            <div class="wrapper service__wrapper">
+                <div class="service__section-content">
+                    <h2 class="service__section-h2">Service and our projects</h2>
+                    <div class="service__section-buttons">
+                        <a class="button1 button1--service"><span>Gardens</span></a>
+                        <a class="button1 button1--service"><span>Lawn</span></a>
+                        <a class="button1 button1--service"><span>Planting</span></a>
+
                     </div>
                 </div>
-            </div>
-            <div class="img bar">
-                <div class="wrapper">
-                    <div class="layout-3-column">
-                        <div class="strategy block-lined">
-                            <span class="img1"></span>
-                            <figcaption>
-                                <p class="colored_text">Garden care<p>
-                                <p class="disc">Lorem Ipsum has been the industry<p>
-                            </figcaption>
+                <div class="service__section-content2">
+                    <div class="service__section-block">
+                        <span class="about__img1"></span>
+                        <div class="service__section-text">
+                            <p class="service__section-colored">Garden care<p>
+                            <p class="service__section-disc">Lorem Ipsum has been the industry<p>
                         </div>
-                        <div class="strategy block-lined">
-                            <span class="img2"></span>
-                            <div>
-                                <p class="colored_text">Planting<p>
-                                <p class="disc">Lorem Ipsum has been the industry<p>
-                            </div>
+                    </div>
+                    <div class="service__section-block">
+                        <span class="about__img2"></span>
+                        <div class="service__section-text">
+                            <p class="service__section-colored">Planting<p>
+                            <p class="service__section-disc">Lorem Ipsum has been the industry<p>
                         </div>
-                        <div class="strategy block-lined">
-                            <span class="img3"></span>
-                            <div>
-                                <p class="colored_text">Lawn care<p>
-                                <p class="disc">Lorem Ipsum has been the industry<p>
-                            </div>
+                    </div>
+                    <div class="service__section-block">
+                        <span class="about__img3"></span>
+                        <div class="service__section-text">
+                            <p class="service__section-colored">Lawn care<p>
+                            <p class="service__section-disc">Lorem Ipsum has been the industry<p>
                         </div>
-                        <div class="strategy block-lined">
-                            <span class="img4"></span>
-                            <div>
-                                <p class="colored_text">Planting<p>
-                                <p class="disc">Lorem Ipsum has been the industry<p>
-                            </div>
+                    </div>
+                    <div class="service__section-block">
+                        <span class="about__img4"></span>
+                        <div class="service__section-text">
+                            <p class="service__section-colored">Planting<p>
+                            <p class="service__section-disc">Lorem Ipsum has been the industry<p>
                         </div>
-                        <div class="strategy block-lined">
-                            <span class="img5"></span>
-                            <div>
-                                <p class="colored_text">Garden care<p>
-                                <p class="disc">Lorem Ipsum has been the industry<p>
-                            </div>
+                    </div>
+                    <div class="service__section-block">
+                        <span class="about__img5"></span>
+                        <div class="service__section-text">
+                            <p class="service__section-colored">Garden care<p>
+                            <p class="service__section-disc">Lorem Ipsum has been the industry<p>
                         </div>
-                        <div class="strategy block-lined">
-                            <span class="img6"></span>
-                            <div>
-                                <p class="colored_text">Planting<p>
-                                <p class="disc">Lorem Ipsum has been the industry<p>
-                            </div>
+                    </div>
+                    <div class="service__section-block">
+                        <span class="about__img6"></span>
+                        <div class="service__section-text">
+                            <p class="service__section-colored">Planting<p>
+                            <p class="service__section-disc">Lorem Ipsum has been the industry<p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <section class="prices">
-            <div class="wrapper">
-                <div class="text call us">
-                    <h3>Our best gardeners are ready to help you</h3>
-                    <div class="btn services">
-                        <button class="button button_bordered">Contact us</button>
-                    </div>
-                    <span class="leafs_prices"></span>
-                </div>
-                <div class="prices_left">
-                    <p class="low">Prices</p>
-                    <div class="prices_item block-lined">
-                        <div class="prices_items panel">
-                            <div class="basics">
-                                <p>Basics</p>
-                                <span class="accordion_btn"></span>
-                            </div>
-                            <div class="standard">
-                                <p>Standart</p>
-                                <span class="accordion_btn"></span>
-                            </div>
-                            <div class="procare">
-                                <p>Pro care</p>
-                                <span class="accordion_btn"></span>
-                            </div>
+            <div class="wrapper prices__wrapper">
+                <div class="prices__content-left">
+                    <h3 class="prices-h3">Prices</h3>
+                    <div class="prices__items">
+                        <div class="prices_items-panel">
+                            <a class="button2 button--prices">
+                                <p class="button2__txt">Basics</p>
+                                <span class="button2__img-btn">
+                                    <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8.00928" r="8" fill="#D9D9D9"/>
+                                        <path d="M8.00003 9.00949L6.00002 7.0096" stroke="#717171" stroke-width="0.5" stroke-linecap="round"/>
+                                        <path d="M8 9.00952L10 7.00952" stroke="#717171" stroke-width="0.5" stroke-linecap="round"/>
+                                        </svg>
+                                </span>
+                            </a>   
+                            <a class="button2 button--prices">
+                                <p class="button2__txt">Standart</p>
+                                <span class="button2__img-btn">
+                                    <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8.00928" r="8" fill="#D9D9D9"/>
+                                        <path d="M8.00003 9.00949L6.00002 7.0096" stroke="#717171" stroke-width="0.5" stroke-linecap="round"/>
+                                        <path d="M8 9.00952L10 7.00952" stroke="#717171" stroke-width="0.5" stroke-linecap="round"/>
+                                        </svg>
+                                </span>
+                            </a>
+                            <a class="button2 button--prices">
+                                <p class="button2__txt">Pro care</p>
+                                <span class="button2__img-btn">
+                                    <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8.00928" r="8" fill="#D9D9D9"/>
+                                        <path d="M8.00003 9.00949L6.00002 7.0096" stroke="#717171" stroke-width="0.5" stroke-linecap="round"/>
+                                        <path d="M8 9.00952L10 7.00952" stroke="#717171" stroke-width="0.5" stroke-linecap="round"/>
+                                        </svg>
+                                </span>
+                            </a>
                         </div>
                     </div>
                 </div>
+                <div class="prices__content-right">
+                    <h3 class="prices__txt--right">Our best <span>gardeners</span> are ready to help you</h3>
+                    <a class="button1 button1--prices"><span>Contact us</span></a>
+                    <span class="prices__img"></span>
+                </div>
             </div>
         </section>
-        <section class="contact_us">
-            <div class="wrapper">
-                <h2>Contact us</h2>
-                <span class="contact_woman1"></span>
-                <div class="contacts-container">
-                    <p>City</p>
-                    <span class="accordion_btn"></span>
-                </div>
+        <section class="contacts">
+            <div class="wrapper contacts__wrapper">
+                <span class="contacts_woman1"></span>
+                <h2 class="contacts__h2">Contact us</h2>
+                <a class="button3 button--contacts">
+                    <p class="button3__txt">City</p>
+                    <span class="button3__img">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="8" cy="8" r="8" fill="#AEA1A1"/>
+                        <path d="M8.00003 8.99997L6.00002 7.00008" stroke="white" stroke-width="0.5" stroke-linecap="round"/>
+                        <path d="M8 9L10 7" stroke="white" stroke-width="0.5" stroke-linecap="round"/>
+                        </svg>
+                    </span>
+                </a>    
             </div>
         </section>
     </main>
-    <footer>
-        <div class="wrapper">
-            <div class="loyout-3-column">
-                <p>Rolling Scopes School</p>
-                <div class="footer-data">
-                    <p>© 2022</p>
-                    <a class="my-github" href="https://github.com/zelgleb ">github</a>
+    <footer class="footer">
+        <div class="wrapper footer__wrapper">
+            <div class="footer__content">
+                <div class="footer__data">
+                    <p class="footer__data-text">©</p>
+                    <p class="footer__data-text">2022</p>
+                    <a class="footer__github" href="https://github.com/zelgleb ">github</a>
                 </div>
-                <div class="social-list">
-                    <ul>
-                        <li> <a class="insta" href="#">
-                                <span class="instagram"></span>
-                        </li>
-                        <li> <a class="fb" href="#">
-                                <span class="facebook"></span>
-                        </li>
-                        <li> <a class="twit" href="#">
-                                <span class="twitter"></span>
-                        </li>
-                        <li> <a class="pint" href="#">
-                            <span class="pinterest"></span>
-                        </li>
-                    </ul>
-                </div>
+                <p class="footer__text">Rolling Scopes School</p>
+                <ul class="footer__items">
+                    <li> <a class="footer__logo" href="#">
+                            <span class="instagram"></span>
+                    </li>
+                    <li> <a class="footer__logo" href="#">
+                            <span class="facebook"></span>
+                    </li>
+                    <li> <a class="footer__logo" href="#">
+                            <span class="twitter"></span>
+                    </li>
+                    <li> <a class="footer__logo" href="#">
+                        <span class="pinterest"></span>
+                    </li>
+                </ul>
+                
             </div>
         </div>
     </footer>

@@ -1,18 +1,18 @@
-.houseplant1 {
-    background-image: url("img/imgAbout/houseplant 1.svg");
+.about__img {
+    background-image: url("img/imgAbout/houseplant 1.png");
     width: 464px;
     height: 479px;
     display: inline-block;
 
 }
-.leafs {
-    background-image: url("img/img welcome/leafs.svg");
+.welcome__img {
+    background-image: url("img/img welcome/leafs.png");
     width: 448.8px;
     height: 407.36px;
     display: inline-block;
 }
-.leafs_prices{
-    background-image: url("img/img prices/leafs.svg");
+.prices__img{
+    background-image: url("img/img prices/leafs.png");
     width: 152px;
     height: 174.99px;
     display: inline-block;
@@ -22,77 +22,107 @@
     height: 22px;
     display: inline-block;
 }
-.accordion_btn{
+.prices__img-btn{
     background-image: url("img/accordion_btn.svg");
     width: 16px;
     height: 16px;
     display: inline-block;
 }
-.img1 {
+.about__img1 {
     background-image: url("img/img services/1.jpg");
-    width: 329px;
+    background-size: cover;
+    width: 330px;
     height: 350px;
     left: 1002px;
     top: 224px;
     border-radius: 20px 20px 0px 0px;
     display: inline-block;
+    
 }
-.img2 {
+.about__img2 {
     background-image: url("img/img services/2.jpg");
+    background-size: cover;
     width: 329px;
     height: 350px;
+    border-radius: 20px 20px 0px 0px;
     display: inline-block;
 }
-.img3{
+.about__img3{
     background-image: url("img/img services/3.jpg");
+    background-size: cover;
     width: 329px;
     height: 350px;
+    border-radius: 20px 20px 0px 0px;
     display: inline-block;
 }
-.img4 {
+.about__img4 {
     background-image: url("img/img services/4.jpg");
+    background-size: cover;
     width: 329px;
     height: 350px;
+    border-radius: 20px 20px 0px 0px;
     display: inline-block;
 }
-.img5 {
+.about__img5 {
     background-image: url("img/img services/5.jpg");
+    background-size: cover;
     width: 329px;
     height: 350px;
+    border-radius: 20px 20px 0px 0px;
     display: inline-block;
 }
-.img6{
+.about__img6{
     background-image: url("img/img services/6.jpg");
+    background-size: cover;
     width: 329px;
     height: 350px;
+    border-radius: 20px 20px 0px 0px;
     display: inline-block;
 }
-.contact_woman1{
-    background-image: url("img/img contactus/contact_woman1.jpg");
-    width: 400px;
+.gray_arrow{
+background-image: url("img/img contactus/btn_arrow_green.svg");
+    background-size: cover;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+}
+.contacts_woman1{
+    background-image: url("img/img contactus/contact_woman 1.png");
+    background-size: cover;
+    width: 430px;
     height: 496.99px;
     display: inline-block;
 }
 .instagram{
     background-image: url("img/img footer/inst 1.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     width: 32px;
     height: 32px;
     display: inline-block;
 }
 .facebook{
     background-image: url("img/img footer/fb 1.svg");
+    background-position: center;
+    background-repeat: no-repeat;
     width: 32px;
     height: 32px;
     display: inline-block;
 }
 .twitter{
     background-image: url("img/img footer/tw 1.svg");
+    background-position: center;
+    background-repeat: no-repeat;
     width: 32px;
     height: 32px;
     display: inline-block;
 }
 .pinterest{
     background-image: url("img/img footer/pinterest 1.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     width: 32px;
     height: 32px;
     display: inline-block;
