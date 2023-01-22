@@ -1,21 +1,52 @@
-.contacts{
-    background-color: $color-background;
-    height: 550px;
-    &__wrapper{
-        height: 497px;  
+.contacts {
+  background-color: $color-background;
+  height: 550px;
+  @include media-tablet {
+    height: 739px;
+  }
+  @include media-mobile {
+    height: 445px;
+  }
+  &__wrapper {
+    height: 497px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-top: 53px;
+    @include media-tablet {
+      h2 {
         display: flex;
-        justify-content: space-between;
-        flex-direction: row;
-        padding-top: 53px;
-        }   
-    &__h2{
-        width: 196px;
-        padding-top: 7px;
-        padding-left: 113px;
-        padding-right: 64px;
-        font-weight: 700;
-        font-size: 40px;
-        line-height: 52px;
-        color: $color-primary;
+        order: 1;
+      }
+      height: 700px;
+      flex-direction: column-reverse;
+      align-items: center;
+      padding-top: 40px;
     }
+    @include media-mobile {
+      height: 420px;
+      flex-direction: column-reverse;
+      padding-top: 25px;
+    }
+  }
+  &__h2 {
+    width: 196px;
+    padding-top: 7px;
+    padding-left: 113px;
+    padding-right: 64px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: $color-primary;
+    @include media-tablet {
+      padding-top: 0px;
+      padding-left: 59px;
+    }
+    @include media-mobile {
+      padding-top: 0px;
+      font-size: 25px;
+      padding-left: 144px;
+      line-height: 33px;
+    }
+  }
 }

@@ -1,6 +1,13 @@
-.welcome{
+.welcome {
   background-color: $color-background;
   height: 532px;
+  @include media-tablet {
+    height: 420px;
+  }
+  @include media-mobile {
+    height: 300px;
+  }
+
   &__wrapper {
     height: 407px;
     display: flex;
@@ -9,29 +16,68 @@
     align-items: center;
     padding-top: 62px;
     padding-bottom: 62px;
+    @include media-tablet {
+      height: 310px;
+      flex-direction: row-reverse;
+      padding-top: 40px;
+      padding-bottom: 70px;
     }
-    &__section-content {
-      width: 549px;
-      height: 340px;
-      
+    @include media-mobile {
+      height: 252px;
+      padding-top: 24px;
+      padding-bottom: 24px;
     }
-    &__section-h1 {
-      color: $color-inside;
-      font-weight: 400;
-      font-size: 40px;
-      line-height: 52px;
-      span{
-        color: $color-primary;
-      }  
+  }
+
+  &__section-content {
+    width: 549px;
+    height: 340px;
+    @include media-tablet {
+      width: 346px;
+      height: 310px;
     }
-    &__section-desc {
-      
-      color: $color-shadow;
-      font-weight: 400;
-      font-size: 20px;
+    @include media-mobile {
+      width: 330px;
+      height: 252px;
+    }
+  }
+  &__section-h1 {
+    color: $color-inside;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    @include media-tablet {
+      font-weight: 700;
+      font-size: 35px;
+      line-height: 50px;
+    }
+    @include media-mobile {
+      font-weight: 700;
+      font-size: 25px;
       line-height: 35px;
-      padding-top: 42px;
-      margin: 0 0 44px;
     }
-    
+    span {
+      color: $color-primary;
+    }
+  }
+  &__section-desc {
+    color: $color-shadow;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    padding-top: 42px;
+    margin: 0 0 44px;
+    @include media-tablet {
+      font-size: 16px;
+      line-height: 25px;
+      padding-top: 30px;
+      margin: 0 0 30px;
+    }
+    @include media-mobile {
+      font-size: 16px;
+      line-height: 25px;
+      padding-top: 20px;
+      margin: 0 0 20px;
+    }
+  }
 }

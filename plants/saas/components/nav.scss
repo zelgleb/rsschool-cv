@@ -1,24 +1,39 @@
 .navigation {
+  height: 50px;
+  @include media-tablet {
     height: 50px;
-    &__list {
-        display: flex;
-        padding-inline-start: 0px;
-        justify-content: space-between;
-        flex-direction: row;
-        align-items: center;
+  }
+  &__list {
+    display: flex;
+    padding-inline-start: 0px;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    @include media-mobile {
+      display: none;
     }
-    &__item {
-        list-style: none;
-        &:not(:last-child) {
-             margin-right: 46px;
-        }
+    &_active {
+      display: flex;
+      position: absolute;
+      flex-direction: column;
+      background: $color-background;
+      width: $mobile-width;
+      .navigation__item {
+        margin-right: 0px;
+      }
     }
-    &__item-link {
-        text-decoration: none;
-        color: $color-nav;
-        &--colored {
-            color: $color-base;
-        }
+  }
+  &__item {
+    list-style: none;
+    &:not(:last-child) {
+      margin-right: 46px;
     }
-
+  }
+  &__item-link {
+    text-decoration: none;
+    color: $color-nav;
+    &--colored {
+      color: $color-base;
+    }
+  }
 }
