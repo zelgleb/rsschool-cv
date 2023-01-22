@@ -1,1 +1,1 @@
-https://zelgleb.github.io/rsschool-cv/plants-part2/index.html
+https://zelgleb.github.io/rsschool-cv/plants/plants-part2/index.html
