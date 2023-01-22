@@ -1,4 +1,12 @@
+//base
 @import "base/_base.scss";
+@import "base/hamburger.scss";
+
+//
+@import "../node_modules/normalize-scss/sass/normalize";
+
+//abstracts
+@import "./abstracts/mixin.scss";
 @import "abstracts/_constants.scss";
 
 //layouts
@@ -11,10 +19,11 @@
 @import "./layouts/contacts.scss";
 @import "./layouts/footer.scss";
 
-
 // Components
 @import "components/_contact-us.scss";
 @import "components/logo.scss";
 @import "components/nav.scss";
 @import "components/button.scss";
 
+//pictures
+@import "./base/pictures";

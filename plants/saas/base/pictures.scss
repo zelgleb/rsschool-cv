@@ -1,0 +1,209 @@
+.about__img {
+  background-image: url("../../img/imgAbout/houseplant 1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 464px;
+  height: 479px;
+  display: inline-block;
+  @include media-tablet {
+    width: 250px;
+    height: 258px;
+  }
+  @include media-mobile {
+    width: 150px;
+    height: 147px;
+  }
+}
+.welcome__img {
+  background-image: url("../../img/img welcome/leafs.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 448.8px;
+  height: 407.36px;
+  display: inline-block;
+
+  @include media-tablet {
+    width: 280px;
+    height: 254px;
+    background-position: top;
+  }
+  @include media-mobile {
+    width: 330px;
+    height: 252px;
+  }
+}
+.prices__img {
+  background-image: url("../../img/img prices/leafs.png");
+  width: 152px;
+  height: 174.99px;
+  display: inline-block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  @include media-mobile {
+    display: none;
+  }
+}
+.header_logo {
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+}
+.prices__img-btn {
+  background-image: url("../../img/accordion_btn.svg");
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+.about__img1 {
+  background-image: url("../../img/img services/1.jpg");
+  background-size: cover;
+  width: 330px;
+  height: 350px;
+  left: 1002px;
+  top: 224px;
+  border-radius: 20px 20px 0px 0px;
+  display: inline-block;
+  @include media-tablet {
+    width: 280px;
+  }
+  @include media-mobile {
+    width: 279px;
+  }
+}
+.about__img2 {
+  background-image: url("../../img/img services/2.jpg");
+  background-size: cover;
+  width: 329px;
+  height: 350px;
+  border-radius: 20px 20px 0px 0px;
+  display: inline-block;
+  @include media-tablet {
+    width: 280px;
+  }
+  @include media-mobile {
+    width: 279px;
+  }
+}
+.about__img3 {
+  background-image: url("../../img/img services/3.jpg");
+  background-size: cover;
+  width: 329px;
+  height: 350px;
+  border-radius: 20px 20px 0px 0px;
+  display: inline-block;
+  @include media-tablet {
+    width: 280px;
+  }
+  @include media-mobile {
+    width: 279px;
+  }
+}
+.about__img4 {
+  background-image: url("../../img/img services/4.jpg");
+  background-size: cover;
+  width: 329px;
+  height: 350px;
+  border-radius: 20px 20px 0px 0px;
+  display: inline-block;
+  @include media-tablet {
+    width: 280px;
+  }
+  @include media-mobile {
+    width: 279px;
+  }
+}
+.about__img5 {
+  background-image: url("../../img/img services/5.jpg");
+  background-size: cover;
+  width: 329px;
+  height: 350px;
+  border-radius: 20px 20px 0px 0px;
+  display: inline-block;
+  @include media-tablet {
+    width: 280px;
+  }
+  @include media-mobile {
+    width: 279px;
+  }
+}
+.about__img6 {
+  background-image: url("../../img/img services/6.jpg");
+  background-size: cover;
+  width: 329px;
+  height: 350px;
+  border-radius: 20px 20px 0px 0px;
+  display: inline-block;
+  @include media-tablet {
+    width: 280px;
+  }
+  @include media-mobile {
+    width: 279px;
+  }
+}
+.gray_arrow {
+  background-image: url("../../img/img contactus/btn_arrow_green.svg");
+  background-size: cover;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+.contacts_woman1 {
+  background-image: url("../../img/img contactus/contact_woman 1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 430px;
+  height: 496.99px;
+  display: inline-block;
+  @include media-tablet {
+    width: 200px;
+    height: 248.49px;
+  }
+  @include media-mobile {
+    width: 100px;
+    height: 124.25px;
+  }
+}
+.instagram {
+  background-image: url("../../img/img footer/inst 1.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+}
+.facebook {
+  background-image: url("../../img/img footer/fb 1.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+}
+.twitter {
+  background-image: url("../../img/img footer/tw 1.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+}
+.pinterest {
+  background-image: url("../../img/img footer/pinterest 1.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+}
+/*.my-github{*/
+/*    background-image: url("img/img footer/github.svg");*/
+/*    width: 85px;*/
+/*    height: 85px;*/
+/*    display: inline-block;*/
+/*}*/

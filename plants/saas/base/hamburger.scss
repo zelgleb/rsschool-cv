@@ -1,0 +1,40 @@
+//%hamburger-line {
+//  content: "";
+//  border: 2px solid #717171;
+//  position: absolute;
+//  width: 40px;
+//  height: 0px;
+//}
+//
+//.hamburger {
+//  display: block;
+//  position: relative;
+//  width: 40px;
+//  height: 30px;
+//  &:before {
+//    @extend %hamburger-line;
+//    width: 40px;
+//    top: 0;
+//    left: 0;
+//    background: #717171;
+//  }
+//  &:after {
+//    @extend %hamburger-line;
+//    bottom: 0;
+//    left: 0;
+//    background: #717171;
+//  }
+//}
+//.hamburger__line {
+//  @extend %hamburger-line;
+//  top: calc(33% - 1.5px);
+//  left: 0;
+//  background: #717171;
+//}
+//.hamburger__line2 {
+//  @extend %hamburger-line;
+//  top: calc(63% - 1.5px);
+//  left: 0;
+//  background: #717171;
+//
+//}

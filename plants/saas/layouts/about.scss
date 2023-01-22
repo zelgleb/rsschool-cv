@@ -1,33 +1,80 @@
 .about {
-    background-color: $color-light;
-    height: 666px;
-    &__wrapper {
-        height: 479px;
-        display: flex;
-        justify-content: space-between;
-        flex-direction: row;
-        align-items: center;
-        padding-top: 93px;
-        padding-bottom: 94px;
-        }
-        &__section-content {
-            width: 605px;
-            height: 350px;
-            align-self: start;
-        }
-        &__section-h2 {
-            width: 463px;
-            height: 102px;
-            color: $color-base;
-            span{
-              color: $color-primary;
-            }  
-        }
-        &__section-desc {
-            color: $color-shadow;
-            font-weight: 400;
-            font-size: 20px;
-            line-height: 30px;
-            padding-top: 40px;
-        }
+  background-color: $color-light;
+  height: 666px;
+  @include media-tablet {
+    height: 783px;
+  }
+  @include media-mobile {
+    height: 516px;
+  }
+
+  &__wrapper {
+    height: 479px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 93px;
+    padding-bottom: 94px;
+    @include media-tablet {
+      height: 648px;
+      flex-direction: column;
+      padding-top: 40px;
+      padding-bottom: 95px;
+    }
+    @include media-mobile {
+      height: 455px;
+      flex-direction: column;
+      padding-top: 30px;
+      padding-bottom: 31px;
+    }
+  }
+  &__section-content {
+    width: 605px;
+    height: 350px;
+    align-self: start;
+    @include media-tablet {
+      width: 668px;
+      height: 350px;
+    }
+    @include media-mobile {
+      width: 330px;
+      height: 308px;
+    }
+  }
+  &__section-h2 {
+    width: 463px;
+    height: 102px;
+    color: $color-base;
+    span {
+      color: $color-primary;
+    }
+    @include media-tablet {
+      width: 423px;
+      text-align: center;
+      padding-left: 122px;
+    }
+    @include media-mobile {
+      width: 288px;
+      height: 58px;
+      text-align: center;
+      padding-left: 21px;
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 33px;
+    }
+  }
+  &__section-desc {
+    color: $color-shadow;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 40px;
+    @include media-mobile {
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 25px;
+      padding-top: 21px;
+    }
+  }
 }

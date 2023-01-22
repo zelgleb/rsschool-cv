@@ -1,69 +1,126 @@
 .service {
-    background-color: $color-background;
-    height: 1300px;
-    &__wrapper {
-        // width: 1222px;
-        // height: 1139px;
-        display: flex;
-        flex-direction: column;
-        justify-content: stretch;
-        padding-top: 40px;
-        padding-bottom: 121px;
-        }
-        &__section-content{
-            width: 1007px;
-            height: 94px;
-            margin-bottom: 90px;
-            display: flex;
-            justify-content: start;
-            flex-direction: row;
-            align-items: center;
-        }
-        &__section-h2 {
-            width: 306px;
-            height: 94px;
-            color: $color-primary;
-            padding-right: 142px;
-        }
-        &__section-buttons {
-            width: 559px;
-            height: 50px;
-            display: flex;
-            justify-content: space-between;
-            flex-direction: row;
-            align-items: center;
-        }
-        &__section-content2 {
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            
-        }
-        &__section-block {
-            width: 330px;
-            height: 450px;
-            padding-bottom: 55px;
-        }
-        &__section-text {
-            width: 330px;
-            height: 100px;
-            border: 1px solid $color-border;
-            border-top: none;
-            border-radius: 0px 0px 20px 20px;
-            text-align: center;
-        }
-        &__section-colored{
-            height: 24px;
-            font-weight: 700;
-            font-size: 20px;
-            line-height: 20px;   
-            color: $color-base;   
-            padding-top: 10px;
-        }
-        &__section-disc{
-            color: $color-shadow;
-            font-weight: 400;
-            font-size: 20px;
-            line-height: 30px;
-        }
+  background-color: $color-background;
+  height: 1300px;
+  @include media-tablet {
+    height: 1780px;
+  }
+  @include media-mobile {
+    height: 3150px;
+  }
+  &__wrapper {
+    // width: 1222px;
+    // height: 1139px;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    padding-top: 40px;
+    padding-bottom: 90px;
+    @include media-tablet {
+      padding-top: 60px;
+      padding-bottom: 70px;
+    }
+    @include media-mobile {
+      padding-top: 30px;
+      padding-bottom: 27px;
+    }
+  }
+  &__section-content {
+    height: 94px;
+    margin-bottom: 90px;
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    align-items: center;
+    @include media-tablet {
+      height: 184px;
+      flex-direction: column;
+      margin-bottom: 40px;
+    }
+    @include media-mobile {
+      height: 183px;
+      flex-direction: column;
+      margin-bottom: 40px;
+    }
+  }
+  &__section-h2 {
+    width: 306px;
+    height: 94px;
+    color: $color-primary;
+    padding-right: 142px;
+    @include media-tablet {
+      padding-right: 251px;
+      padding-bottom: 40px;
+    }
+    @include media-mobile {
+      width: 187px;
+      height: 69px;
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 33px;
+      padding-right: 63px;
+      padding-bottom: 35px;
+    }
+  }
+  &__section-buttons {
+    width: 559px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    @include media-mobile {
+      width: 252px;
+      height: 79px;
+      flex-wrap: wrap;
+    }
+  }
+  &__section-content2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    @include media-mobile {
+      justify-content: center;
+    }
+  }
+  &__section-block {
+    width: 330px;
+    height: 450px;
+    padding-bottom: 55px;
+    @include media-tablet {
+      width: 281px;
+      padding-bottom: 38px;
+    }
+    @include media-mobile {
+      width: 280px;
+      padding-bottom: 34px;
+    }
+  }
+  &__section-text {
+    width: 330px;
+    height: 100px;
+    border: 1px solid $color-border;
+    border-top: none;
+    border-radius: 0px 0px 20px 20px;
+    text-align: center;
+    @include media-tablet {
+      width: 280px;
+    }
+    @include media-mobile {
+      width: 280px;
+    }
+  }
+  &__section-colored {
+    height: 24px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: $color-base;
+    padding-top: 10px;
+  }
+  &__section-disc {
+    color: $color-shadow;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+  }
 }
