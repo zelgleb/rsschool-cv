@@ -6,6 +6,9 @@
   }
   @include media-mobile {
     height: 300px;
+    &__section {
+      max-width: 549px;
+    }
   }
 
   &__wrapper {
@@ -14,6 +17,7 @@
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
+    column-gap: 42px;
     padding-top: 62px;
     padding-bottom: 62px;
     @include media-tablet {
@@ -30,20 +34,18 @@
   }
 
   &__section-content {
-    width: 549px;
-    height: 340px;
+    max-width: 549px;
+
     @include media-tablet {
-      width: 346px;
       height: 310px;
     }
     @include media-mobile {
-      width: 330px;
       height: 252px;
     }
   }
   &__section-h1 {
     color: $color-inside;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 40px;
     line-height: 52px;
     @include media-tablet {

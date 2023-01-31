@@ -30,15 +30,13 @@
     }
   }
   &__section-content {
-    width: 605px;
+    max-width: 605px;
     height: 350px;
     align-self: start;
     @include media-tablet {
-      width: 668px;
       height: 350px;
     }
     @include media-mobile {
-      width: 330px;
       height: 308px;
     }
   }

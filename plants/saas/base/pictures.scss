@@ -16,22 +16,25 @@
   }
 }
 .welcome__img {
-  background-image: url("../img/img welcome/leafs.png");
+  //background-image: url("../img/img welcome/leafs.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  width: 448.8px;
-  height: 407.36px;
-  display: inline-block;
+  //background: $color-background;
+  //background-position: center;
+  max-width: 100%;
+  height: max-content;
+  object-fit: cover;
+  overflow: hidden;
+
+  //display: inline-block;
 
   @include media-tablet {
-    width: 280px;
-    height: 254px;
+    width: auto;
+    height: 254.15px;
     background-position: top;
   }
   @include media-mobile {
-    width: 330px;
-    height: 252px;
+    display: none;
   }
 }
 .prices__img {
